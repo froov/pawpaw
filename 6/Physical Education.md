@@ -1,0 +1,20 @@
+---
+title: Physical Education
+subtitle: Phys Ed.
+minGrade: 6
+maxGrade: 6
+---
+# Physical Education
+
+
+## Unit 1
+* Basic safety rules for daily and recreational activities
+
+## Unit 2
+* Aerobic and anaerobic exercise (contingent on any physical or other limitations)
+
+## Unit 3
+* Bicycle Safety
+
+## Unit 4
+* Basic safety rules for daily and recreational activities
