@@ -1,8 +1,11 @@
 ---
+id: f44d9e05-1dfc-4216-9cd2-a77760416bf8
+version: 1
 title: Social Studies - Modern World History
 subtitle: Modern World History
 minGrade: 10
 maxGrade: 10
+
 ---
 # Social Studies - Modern World History
 

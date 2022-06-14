@@ -1,8 +1,11 @@
 ---
+id: 9313daa7-92ea-4028-97b5-f22d9ee44e22
+version: 1
 title: Science - Earth and Space
 subtitle: Earth Science
 minGrade: 9
 maxGrade: 12
+
 ---
 # Science - Earth and Space
 

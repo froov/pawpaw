@@ -1,8 +1,11 @@
 ---
+id: aba06b19-662a-4f10-b5bb-f986b8b8ad9e
+version: 1
 title: Science - Chemistry
 subtitle: Chemistry
 minGrade: 9
 maxGrade: 12
+
 ---
 # Science - Chemistry
 

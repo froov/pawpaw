@@ -1,8 +1,11 @@
 ---
+id: 3c6a0477-f54d-4148-8bf1-041fdef0e8c4
+version: 1
 title: Social Studies - United States History
 subtitle: US History
 minGrade: 11
 maxGrade: 11
+
 ---
 # Social Studies - United States History
 

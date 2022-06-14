@@ -1,8 +1,11 @@
 ---
+id: ce726a19-d5f7-43e2-8258-aca2acda1c21
+version: 1
 title: Math - Statistics & Probability
 subtitle: Statistics
 minGrade: 9
 maxGrade: 12
+
 ---
 # Math - Statistics & Probability
 

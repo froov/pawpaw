@@ -1,8 +1,11 @@
 ---
+id: 08798d22-956f-4685-b143-57354e69a632
+version: 1
 title: Practical Arts & Library Skills
 subtitle: Life Skills
 minGrade: 8
 maxGrade: 8
+
 ---
 # Practical Arts & Library Skills
 

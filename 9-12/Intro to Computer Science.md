@@ -1,8 +1,11 @@
 ---
+id: 4f3cb95d-6f26-41fd-a270-998747517fd5
+version: 1
 title: Intro to Computer Science
-subtitle: 
+subtitle: ""
 minGrade: 9
 maxGrade: 12
+
 ---
 # Intro to Computer Science
 

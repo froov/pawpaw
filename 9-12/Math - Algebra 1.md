@@ -1,8 +1,11 @@
 ---
+id: a5f8b632-a734-4626-9332-b847e39fb554
+version: 1
 title: Math - Algebra 1
 subtitle: Algebra
 minGrade: 9
 maxGrade: 12
+
 ---
 # Math - Algebra 1
 

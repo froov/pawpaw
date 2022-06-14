@@ -1,8 +1,11 @@
 ---
+id: d718bf05-0259-48bf-a50d-6651cef21c80
+version: 1
 title: Visual Arts & Music
 subtitle: Art & Music
 minGrade: 8
 maxGrade: 8
+
 ---
 # Visual Arts & Music
 

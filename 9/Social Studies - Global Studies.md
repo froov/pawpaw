@@ -1,8 +1,11 @@
 ---
+id: 9db7ad37-34e3-4e5c-86c6-9a5d6aa3fa8c
+version: 1
 title: Social Studies - Global Studies
 subtitle: Global Studies
 minGrade: 9
 maxGrade: 9
+
 ---
 # Social Studies - Global Studies
 

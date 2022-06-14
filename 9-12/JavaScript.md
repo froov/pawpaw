@@ -1,8 +1,11 @@
 ---
+id: 2a1f7ea2-028a-49bc-9c19-cbf8db5076bc
+version: 1
 title: JavaScript
-subtitle: 
+subtitle: ""
 minGrade: 9
 maxGrade: 12
+
 ---
 # JavaScript
 

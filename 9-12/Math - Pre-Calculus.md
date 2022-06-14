@@ -1,8 +1,11 @@
 ---
+id: a0da28fd-b9c7-4615-bd29-1a0f6871b17e
+version: 1
 title: Math - Pre-Calculus
 subtitle: Pre-Calc
 minGrade: 9
 maxGrade: 12
+
 ---
 # Math - Pre-Calculus
 

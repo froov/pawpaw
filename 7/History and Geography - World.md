@@ -1,8 +1,11 @@
 ---
+id: f533471a-41da-4548-8a5b-8b15356305b7
+version: 1
 title: History and Geography - World
 subtitle: World History
 minGrade: 7
 maxGrade: 7
+
 ---
 # History and Geography - World
 

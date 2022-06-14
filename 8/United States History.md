@@ -1,8 +1,11 @@
 ---
+id: d4775fe4-708f-43af-8630-159dbfe972c2
+version: 1
 title: United States History
 subtitle: US History
 minGrade: 8
 maxGrade: 8
+
 ---
 # United States History
 
