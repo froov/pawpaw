@@ -30,15 +30,23 @@ page: <!DOCTYPE html>
   </head>
   <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
   {{ if .Back }}
-  <a class="navbar-item" >
+  <button class="navbar-tool" onclick='history.back()' >
   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#808080" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-  </svg></a>
+  </svg></button>
+  {{ else }}
+  <button class="navbar-tool" >
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"  stroke="#808080" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+  </svg>
+  </button>
   {{end}}
+  <div class="navbar-brand">
+
+
   <a class="navbar-item" href="/index.html">
-  📚 Model School
+  {{ .Title }}
   </a>
   </div>
   <div class="navbar-right">
