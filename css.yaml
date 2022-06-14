@@ -1,0 +1,57 @@
+pinList: <div class="container">
+  {{range . }}
+  <a class="card" href='{{.Link}}'>
+  <div class="appicon"> <img width='90' height='90' alt="{{.Title}}" class='cat' src="{{.Image}}" /></div>
+  <div class="caption tooltip">{{.Title}}</div>
+  </a>
+  {{end}}
+  </div>
+
+lessonList: <div class="container">
+  {{range . }}
+  <a class="tile" href="{{.Link}}">
+  <div class="caption2">{{.Number}}</div>
+  </a>
+  {{end}}
+  </div>
+  </section>
+
+page: <!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Free curriculum">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pawpaw Model School</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content='black'>
+  <link rel="apple-touch-icon" href="/circle_logo.png"/>
+  </head>
+  <body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+  {{ if .Back }}
+  <a class="navbar-item" >
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#808080" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+  </svg></a>
+  {{end}}
+  <a class="navbar-item" href="/index.html">
+  📚 Model School
+  </a>
+  </div>
+  <div class="navbar-right">
+  <button aria-label="search" class="navbar-tool" href="https://www.datagrove.com"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#808080" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+  </svg></button>
+  <button aria-label="edit" class="navbar-tool" href="https://datagrovecr.com"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#808080" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+  </svg></button>
+  </div>
+
+  </nav>
+  {{.Content}}
+  {{.Loader}}
+  </body>
+  </html>
