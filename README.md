@@ -1,8 +1,30 @@
+assumes go is installed
 
+git clone https://github.com/froov/froov.git
+cd froov
+
+```
 go install -v github.com/froov/froov@latest
 npm i @cloudflare/wrangler -g
-froov
+npm install workbox-cli --global
 
+
+froov
+wrangler pages dev froov
+wrangler pages publish froov
+```
+you will need to log into cloudflare to publish.
+
+when adding pages give them a new uuid https://www.uuidgenerator.net/
+
+when making changes to the files you want to cache:
+```
+npx workbox-cli generateSW     
+```
+
+note that froov copies the public folder into froov as part of the build. If you change the style.css, you will need to run froov again, or copy to froov yourself.
+
+using service worker can be maddening; you will want to often evict the cache that it builds.
 
 
 A single subject is composed of markdown using --- to divide note cards.
