@@ -36,3 +36,6 @@ If the card begins with ## Title, then it is a topic for that lesson.
 The first lesson, first card, is the table of contents. Note that each heading autogenerates an id in kebab-case so a lesson named "Philosopy of Socrates" can be linked as [Philosophy of Socrates](#philosophy-of-socrates).
 
 
+## Customization
+
+Most of the interesting HTML is in css.yaml, and public/style.css.
