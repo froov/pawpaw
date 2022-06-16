@@ -1,8 +1,5 @@
 assumes go is installed
 
-git clone https://github.com/froov/froov.git
-cd froov
-
 ```
 go install -v github.com/froov/froov@latest
 npm i @cloudflare/wrangler -g
