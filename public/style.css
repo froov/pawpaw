@@ -27,12 +27,14 @@ body {
 
 
 .navbar {
-  display: flex;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
   width: 100%;
-  justify-content: space-between;
   font-size: 24px;
   background-color: rgb(18, 18, 18);
-  align-items: center;
 }
 
 .navbar a,
@@ -47,16 +49,23 @@ body {
 }
 
 .navbar-brand {
-  padding-left: 4px;
+  /* padding-left: 4px; */
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar-item {
-  padding-top: 8px;
+  /* padding-top: 8px; */
   vertical-align: middle;
 }
 
 .navbar-right {
   display: flex;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .navbar-tool {
@@ -64,6 +73,8 @@ body {
   height: 44px;
   background-color: transparent;
   border: none;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .p-4 {
@@ -79,13 +90,10 @@ body {
 }
 
 
-
-
 .cat {
   border-radius: 8px;
   height: 90px;
   width: 90px;
-  border: 1px dotted black;
 }
 
 .caption {

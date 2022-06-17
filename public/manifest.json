@@ -11,11 +11,15 @@
     "orientation": "any",
     "icons": [
         {
-            "src": "/circle_logo.png",
+            // "src": "/circle_logo.png",
+            // "src": "/logo_transp_512.png",
+            "src": "/logo_no_txt.png",
             "sizes": "512x512"
         },
         {
-            "src": "/circle_logo.png",
+            // "src": "/circle_logo.png",
+            // "src": "/logo_transp_512.png",
+            "src": "/logo_no_txt.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
