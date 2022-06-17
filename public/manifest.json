@@ -12,7 +12,8 @@
     "icons": [
         {
             "src": "/logo._no_txt.png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "type": "image/png"
         },
         {
             "src": "/logo._no_txt.png",
