@@ -11,12 +11,12 @@
     "orientation": "any",
     "icons": [
         {
-            "src": "/logo._no_txt.png",
+            "src": "/logo_no_txt.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "/logo._no_txt.png",
+            "src": "/logo_no_txt.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
