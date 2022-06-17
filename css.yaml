@@ -26,8 +26,8 @@ page: <!DOCTYPE html>
   <link rel="stylesheet" href="/style.css">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content='black'>
-  <link rel="apple-touch-icon" href="/circle_logo.png"/>
-  # <link rel="apple-touch-icon" href="/logo.svg"/>
+  # <link rel="apple-touch-icon" href="/circle_logo.png"/>
+  <link rel="apple-touch-icon" href="/logo_no_text.png"/>
   </head>
   <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
