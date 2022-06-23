@@ -3,7 +3,7 @@ assumes go is installed
 These are tools you install just once
 ```
 go install -v github.com/froov/froov@latest
-npm i @cloudflare/wrangler -g
+npm i wrangler -g
 npm install workbox-cli --global
 ```
 
