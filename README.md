@@ -16,17 +16,22 @@ wrangler pages dev temp
 ```
 
 When you are satisfied with the results and want to publish them
+
+Delete the current service worker if any. These would be in your pawpaw/temp folder 
+
+<img width="270" alt="Screen Shot 2022-06-29 at 12 07 09 PM" src="https://user-images.githubusercontent.com/105446541/176483853-572a60a7-b959-4eed-b51c-6a669144de21.png">
+
+Rebuild the service worker using:
+```
+npx workbox-cli generateSW  
+```
+Publish to cloudflare:
 ```
 wrangler pages publish temp
 ```
 you will need to log into cloudflare to publish.
 
 when adding pages give them a new uuid https://www.uuidgenerator.net/
-
-when making changes to the files you want to cache:
-```
-npx workbox-cli generateSW     
-```
 
 note that froov copies the public folder into froov as part of the build. If you change the style.css, you will need to run froov again, or copy to froov yourself.
 
