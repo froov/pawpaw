@@ -2,7 +2,7 @@ assumes go is installed
 
 These are tools you install just once
 ```
-go install -v github.com/froov/froov@v0.1.0
+go install github.com/froov/froov/cmd/froov@v0.1.0
 npm i wrangler -g
 npm install workbox-cli --global
 ```
