@@ -1,9 +1,9 @@
 module.exports = {
-	globDirectory: 'froov',
+	globDirectory: 'temp',
 	globPatterns: [
 		'**/*.{jpg,html,jpeg,md,json,css}'
 	],
-	swDest: 'froov/sw.js',
+	swDest: 'temp/sw.js',
 	ignoreURLParametersMatching: [
 		/^utm_/,
 		/^fbclid$/
