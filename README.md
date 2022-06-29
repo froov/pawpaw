@@ -7,7 +7,8 @@ npm i wrangler -g
 npm install workbox-cli --global
 ```
 
-To recompile the markdown and view the results
+To recompile the markdown and view the results 
+*Make sure you are inside your pawpaw directory or you will get the error "no css.yaml"
 ```
 froov
 wrangler pages dev temp
