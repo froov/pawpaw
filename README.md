@@ -2,7 +2,7 @@ assumes go is installed
 
 These are tools you install just once
 ```
-go install -v github.com/froov/froov@latest
+go install -v github.com/froov/froov@v0.1.0
 npm i wrangler -g
 npm install workbox-cli --global
 ```
@@ -10,12 +10,12 @@ npm install workbox-cli --global
 To recompile the markdown and view the results
 ```
 froov
-wrangler pages dev froov
+wrangler pages dev temp
 ```
 
 When you are satisfied with the results and want to publish them
 ```
-wrangler pages publish froov
+wrangler pages publish temp
 ```
 you will need to log into cloudflare to publish.
 
